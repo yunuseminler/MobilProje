@@ -6,7 +6,7 @@ import { Button } from 'react-native-elements';
 
 const appId = "1047121222092614"
 
-export default class LoginScreen extends Component {
+export default class HelpScreen extends Component {
 
   render() {
     return (
