@@ -1,6 +1,7 @@
 {
   "name": "mobilproje",
   "version": "1.0.0",
+  "icon": "./assets/favicon.png",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -31,6 +32,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
+  },
+  "android": {
+    "package": "com.benim.proje",
+    "versionCode": 1
   },
   "private": true
 }
